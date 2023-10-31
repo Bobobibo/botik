@@ -9,7 +9,7 @@ import java.util.* ;
         System.out.println("Say your name: ");
         String name = namescanner.next();
 
-        return null;
+        return name;
     }
 
     int defaultbalance = 500;
@@ -21,12 +21,12 @@ import java.util.* ;
    
 
      public static void main(String[] args) {
-         String y = playercard.getCards();
-       ;
-        Integer x = playercard.getValue(); // get value in int
+        // String y = playercard.getCards();
 
-         System.out.println(y);
-         System.out.println(x);
+       // Integer x = playercard.getValue(); // get value in int
+
+       //  System.out.println(y);
+      //   System.out.println(x);
           getName();
 
      }
