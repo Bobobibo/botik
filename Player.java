@@ -21,11 +21,11 @@ import java.util.* ;
    
 
      public static void main(String[] args) {
-         Card.card y = playercard.getCards();
-        //String z = y.toString();
-        Integer x = playercard.getValue(y); // get value in int
+         String y = playercard.getCards();
+       ;
+        Integer x = playercard.getValue(); // get value in int
 
-        // System.out.println(z);
+         System.out.println(y);
          System.out.println(x);
           getName();
 
