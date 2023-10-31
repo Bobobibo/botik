@@ -9,12 +9,12 @@ public class Card {
     // private static final String[] symbols;
     //  static{
     String[] values = {"2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "K", "Q", "A"};
-    String[] symbols = {"♥", "♦", "♣", "♠"};
+    String[] symbols = {"Hearts ", "Diamonds ", "Clubs ", "Spades "};
 
     // }
     Random rand = new Random();
 
-    private class card {
+    public class card {
         String value;
         String symbol;
 
@@ -40,29 +40,12 @@ public class Card {
         } else if (card.value.equals("A")) {
             return 11;
         } else {
-
-            return (Integer.parseInt(card.value) + 2);
+            Integer x = Integer.parseInt(card.value) + 2;
+            return (x);
 
         }
 
     }
+}
 
-
-    public class Player {
-
-        private class name{
-            Scanner namescanner = new Scanner(System.in);
-            Integer name = namescanner.nextInt();
-        }
-        int defaultbalance = 500;
-
-        Card[] card() {
-            return new Card[0];
-        }
-        public class points{
-        Card.getValue();
-        }
-
-
-    }
 

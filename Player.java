@@ -1,20 +1,34 @@
 import java.util.* ;
 
 
-public class Player {
+ public class Player {
 
-    private class name{
+     static Card playercard= new Card();
+    static String getName (){
         Scanner namescanner = new Scanner(System.in);
-        Integer name = namescanner.nextInt();
+        System.out.println("Say your name: ");
+        String name = namescanner.next();
+
+        return null;
     }
+
     int defaultbalance = 500;
 
     Card[] card() {
         return new Card[0];
     }
-    public class points{
-        Card.getValue();
-    }
 
+   
 
-}
+     public static void main(String[] args) {
+         Card.card y = playercard.getCards();
+        //String z = y.toString();
+        Integer x = playercard.getValue(y); // get value in int
+
+        // System.out.println(z);
+         System.out.println(x);
+          getName();
+
+     }
+  }
+
